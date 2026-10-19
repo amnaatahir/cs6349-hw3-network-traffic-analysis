@@ -1,0 +1,30 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+eth                                      frames:8604 bytes:5161681
+  ip                                     frames:8278 bytes:5147989
+    tcp                                  frames:7139 bytes:5016671
+      http                               frames:12 bytes:4961
+        media                            frames:1 bytes:386
+          tcp.segments                   frames:1 bytes:386
+        ocsp                             frames:1 bytes:791
+      tls                                frames:1550 bytes:882441
+        tcp.segments                     frames:324 bytes:385357
+          tls                            frames:204 bytes:288403
+      data                               frames:8 bytes:568
+    udp                                  frames:1059 bytes:126982
+      dns                                frames:435 bytes:42730
+      nbns                               frames:418 bytes:45692
+      nbdgm                              frames:55 bytes:13551
+        smb                              frames:55 bytes:13551
+          mailslot                       frames:55 bytes:13551
+            browser                      frames:55 bytes:13551
+      ntp                                frames:2 bytes:180
+      ssdp                               frames:101 bytes:20899
+      mdns                               frames:30 bytes:2580
+      llmnr                              frames:18 bytes:1350
+    igmp                                 frames:80 bytes:4336
+  arp                                    frames:326 bytes:13692
+===================================================================

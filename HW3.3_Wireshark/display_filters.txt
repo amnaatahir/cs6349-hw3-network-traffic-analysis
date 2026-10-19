@@ -1,0 +1,12 @@
+# Wireshark display filters used in HW 3.3
+http                                                     # all HTTP (incl. SSDP M-SEARCH)
+http.request && !ssdp                                    # real HTTP requests only (6)
+http.host == "filtaferamoza.com"                         # IcedID payload request/response
+dns                                                      # all DNS
+dns.flags.response == 0                                  # DNS queries (33 unique names)
+dns.flags.response==0 && (dns.qry.name contains "magi" || dns.qry.name contains "filtaferamoza" || dns.qry.name contains "lohmotarufos" || dns.qry.name contains "flarkonafaero" || dns.qry.name contains "sophrologie")
+tls.handshake.type == 1 && ip.addr == 2.56.177.122       # C2 TLS Client Hellos (5-min beacon)
+tls.handshake.extensions_server_name == "magiketchinn.com"
+ip.addr == 165.232.175.216 && tcp.len > 0                # BackConnect 60-s keep-alive (non-TLS on 443)
+ip.addr == 140.99.221.138                                # backup C2, all connections reset
+tcp.stream eq 13                                         # Follow TCP Stream of the IcedID download
