@@ -92,8 +92,11 @@ for r in sorted(conn, key=lambda r: -num(r["orig_bytes"]))[:6]:
 print("largest downloads (resp_bytes):")
 for r in sorted(conn, key=lambda r: -num(r["resp_bytes"]))[:6]:
     print(f"  {r['id.orig_h']}->{r['id.resp_h']}:{r['id.resp_p']} {r['service']} orig={r['orig_bytes']} resp={r['resp_bytes']}")
-tot_up = sum(num(r["orig_bytes"]) for r in conn if internal(r["id.orig_h"]) and not internal(r["id.resp_h"]))
-tot_dn = sum(num(r["resp_bytes"]) for r in conn if internal(r["id.orig_h"]) and not internal(r["id.resp_h"]))
+def internet(ip):
+    a = ipaddress.ip_address(ip)
+    return a.is_global and not a.is_multicast
+tot_up = sum(num(r["orig_bytes"]) for r in conn if internal(r["id.orig_h"]) and internet(r["id.resp_h"]))
+tot_dn = sum(num(r["resp_bytes"]) for r in conn if internal(r["id.orig_h"]) and internet(r["id.resp_h"]))
 print(f"total to Internet: up={tot_up} B  down={tot_dn} B")
 print("notice:", [(r.get("note"), r.get("msg")) for r in notice])
 print("weird:", C(r.get("name") for r in weird).most_common(8))

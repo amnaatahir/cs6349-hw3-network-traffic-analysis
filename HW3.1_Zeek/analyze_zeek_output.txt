@@ -97,6 +97,6 @@ largest downloads (resp_bytes):
   10.7.25.101->109.234.165.110:443 ssl orig=1759 resp=201257
   10.7.25.101->2.56.177.122:443 ssl orig=416 resp=176629
   10.7.25.101->20.62.190.191:443 ssl orig=36141 resp=65101
-total to Internet: up=279347 B  down=4363477 B
+total to Internet: up=265428 B  down=4363477 B
 notice: []
 weird: []
