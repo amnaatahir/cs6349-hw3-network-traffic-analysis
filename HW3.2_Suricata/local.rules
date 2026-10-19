@@ -1,0 +1,9 @@
+# CS 6349 HW3.2 - custom rules for the 2023-07-25 IcedID pcap
+# Rule 1 (primary): DNS query for the IcedID C2 domain that is beaconed every ~5 min
+alert dns any any -> any any (msg:"Suspicious DNS Query: magiketchinn.com (IcedID C2)"; dns.query; content:"magiketchinn.com"; nocase; sid:1000001; rev:1;)
+# Rule 2: DNS query for the first IcedID C2 domain (example domain from the assignment)
+alert dns any any -> any any (msg:"Suspicious DNS Query: magizanqomo.com (IcedID C2)"; dns.query; content:"magizanqomo.com"; nocase; sid:1000002; rev:1;)
+# Rule 3: DNS query for the IcedID gzip-loader download domain
+alert dns any any -> any any (msg:"Suspicious DNS Query: filtaferamoza.com (IcedID loader)"; dns.query; content:"filtaferamoza.com"; nocase; sid:1000003; rev:1;)
+# Rule 4: TLS session to the C2 domain (catches the encrypted beacon itself via SNI)
+alert tls any any -> any any (msg:"IcedID C2 TLS SNI: magiketchinn.com"; tls.sni; content:"magiketchinn.com"; nocase; sid:1000004; rev:1;)

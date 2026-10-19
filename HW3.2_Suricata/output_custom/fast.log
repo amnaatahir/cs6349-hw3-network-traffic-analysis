@@ -1,0 +1,140 @@
+07/25/2023-16:38:08.878311  [**] [1:1000003:1] Suspicious DNS Query: filtaferamoza.com (IcedID loader) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:52225 -> 10.7.25.1:53
+07/25/2023-16:39:12.789795  [**] [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:64517 -> 10.7.25.1:53
+07/25/2023-16:39:22.643078  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:60058 -> 10.7.25.1:53
+07/25/2023-16:39:22.854018  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49755 -> 2.56.177.122:443
+07/25/2023-16:49:16.814393  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:58456 -> 10.7.25.1:53
+07/25/2023-16:49:17.031432  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49783 -> 2.56.177.122:443
+07/25/2023-16:54:56.331020  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50974 -> 10.7.25.1:53
+07/25/2023-16:59:20.076981  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:54783 -> 10.7.25.1:53
+07/25/2023-17:04:21.751687  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55407 -> 10.7.25.1:53
+07/25/2023-17:14:25.091936  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:54083 -> 10.7.25.1:53
+07/25/2023-17:14:25.148676  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:54083 -> 10.7.25.1:53
+07/25/2023-17:14:25.347135  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49790 -> 2.56.177.122:443
+07/25/2023-17:15:10.367001  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:57993 -> 10.7.25.1:53
+07/25/2023-17:19:26.655237  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:54797 -> 10.7.25.1:53
+07/25/2023-17:19:26.712077  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:54797 -> 10.7.25.1:53
+07/25/2023-17:24:28.331995  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49793 -> 2.56.177.122:443
+07/25/2023-17:29:29.907830  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:64865 -> 10.7.25.1:53
+07/25/2023-17:29:29.963996  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:64865 -> 10.7.25.1:53
+07/25/2023-17:34:32.784760  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49796 -> 2.56.177.122:443
+07/25/2023-17:35:24.442332  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:57953 -> 10.7.25.1:53
+07/25/2023-17:39:34.885466  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55605 -> 10.7.25.1:53
+07/25/2023-17:39:34.955040  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55605 -> 10.7.25.1:53
+07/25/2023-17:44:36.775606  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49798 -> 2.56.177.122:443
+07/25/2023-17:45:31.474179  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:57511 -> 10.7.25.1:53
+07/25/2023-17:49:38.322314  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:56038 -> 10.7.25.1:53
+07/25/2023-17:49:38.559554  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49801 -> 2.56.177.122:443
+07/25/2023-17:55:38.519318  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62629 -> 10.7.25.1:53
+07/25/2023-17:59:41.839625  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49803 -> 2.56.177.122:443
+07/25/2023-18:04:43.574470  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49804 -> 2.56.177.122:443
+07/25/2023-18:09:46.536921  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:58371 -> 10.7.25.1:53
+07/25/2023-18:09:46.595725  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:58371 -> 10.7.25.1:53
+07/25/2023-18:29:54.109526  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62542 -> 10.7.25.1:53
+07/25/2023-18:29:54.165496  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62542 -> 10.7.25.1:53
+07/25/2023-18:34:55.903331  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49811 -> 2.56.177.122:443
+07/25/2023-18:36:06.663173  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:63690 -> 10.7.25.1:53
+07/25/2023-18:39:57.230228  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50443 -> 10.7.25.1:53
+07/25/2023-18:39:57.286284  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50443 -> 10.7.25.1:53
+07/25/2023-18:39:57.492140  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49812 -> 2.56.177.122:443
+07/25/2023-16:44:15.272871  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:59043 -> 10.7.25.1:53
+07/25/2023-16:44:15.332176  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:59043 -> 10.7.25.1:53
+07/25/2023-16:44:15.484218  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49778 -> 2.56.177.122:443
+07/25/2023-16:44:49.285347  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:53953 -> 10.7.25.1:53
+07/25/2023-16:54:18.304289  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62131 -> 10.7.25.1:53
+07/25/2023-16:54:18.360700  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62131 -> 10.7.25.1:53
+07/25/2023-16:54:18.667558  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49785 -> 2.56.177.122:443
+07/25/2023-16:59:20.345190  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49787 -> 2.56.177.122:443
+07/25/2023-17:04:21.948956  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49788 -> 2.56.177.122:443
+07/25/2023-17:05:03.356819  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50751 -> 10.7.25.1:53
+07/25/2023-17:09:23.240221  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:64206 -> 10.7.25.1:53
+07/25/2023-17:09:23.446030  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49789 -> 2.56.177.122:443
+07/25/2023-17:19:26.860657  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49792 -> 2.56.177.122:443
+07/25/2023-17:24:28.109372  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:53616 -> 10.7.25.1:53
+07/25/2023-17:24:28.166150  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:53616 -> 10.7.25.1:53
+07/25/2023-17:25:17.417294  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:60178 -> 10.7.25.1:53
+07/25/2023-17:29:30.118087  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49794 -> 2.56.177.122:443
+07/25/2023-17:34:31.759826  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:52359 -> 10.7.25.1:53
+07/25/2023-17:34:31.816252  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:52359 -> 10.7.25.1:53
+07/25/2023-17:39:35.134310  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49797 -> 2.56.177.122:443
+07/25/2023-17:44:36.541224  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50888 -> 10.7.25.1:53
+07/25/2023-17:44:36.597898  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50888 -> 10.7.25.1:53
+07/25/2023-17:54:39.885787  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50502 -> 10.7.25.1:53
+07/25/2023-17:54:40.095220  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49802 -> 2.56.177.122:443
+07/25/2023-17:59:41.568709  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61436 -> 10.7.25.1:53
+07/25/2023-17:59:41.624764  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61436 -> 10.7.25.1:53
+07/25/2023-18:04:43.350575  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:49847 -> 10.7.25.1:53
+07/25/2023-18:04:43.407116  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:49847 -> 10.7.25.1:53
+07/25/2023-18:05:45.580419  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:49454 -> 10.7.25.1:53
+07/25/2023-18:09:46.767042  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49805 -> 2.56.177.122:443
+07/25/2023-18:14:48.962530  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61185 -> 10.7.25.1:53
+07/25/2023-18:14:49.018773  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61185 -> 10.7.25.1:53
+07/25/2023-18:14:49.223434  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49806 -> 2.56.177.122:443
+07/25/2023-18:15:52.613797  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62589 -> 10.7.25.1:53
+07/25/2023-18:19:50.676542  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61835 -> 10.7.25.1:53
+07/25/2023-18:19:50.900426  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49808 -> 2.56.177.122:443
+07/25/2023-18:24:52.252581  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61166 -> 10.7.25.1:53
+07/25/2023-18:24:52.308833  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61166 -> 10.7.25.1:53
+07/25/2023-18:24:52.503638  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49809 -> 2.56.177.122:443
+07/25/2023-18:25:59.637565  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:53977 -> 10.7.25.1:53
+07/25/2023-18:29:54.353995  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49810 -> 2.56.177.122:443
+07/25/2023-18:34:55.668898  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62577 -> 10.7.25.1:53
+07/25/2023-18:44:58.912471  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:52337 -> 10.7.25.1:53
+07/25/2023-18:44:58.968749  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:52337 -> 10.7.25.1:53
+07/25/2023-18:44:59.114916  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49813 -> 2.56.177.122:443
+07/25/2023-18:46:13.673425  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:64963 -> 10.7.25.1:53
+07/25/2023-18:50:00.565827  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:53960 -> 10.7.25.1:53
+07/25/2023-18:50:00.827983  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49815 -> 2.56.177.122:443
+07/25/2023-18:55:02.233144  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55456 -> 10.7.25.1:53
+07/25/2023-18:56:20.711016  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:59735 -> 10.7.25.1:53
+07/25/2023-19:00:03.916877  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55773 -> 10.7.25.1:53
+07/25/2023-19:05:05.662114  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:50872 -> 10.7.25.1:53
+07/25/2023-19:05:05.962390  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49821 -> 2.56.177.122:443
+07/25/2023-19:10:07.519482  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:63740 -> 10.7.25.1:53
+07/25/2023-19:10:07.575483  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:63740 -> 10.7.25.1:53
+07/25/2023-19:16:34.773909  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:58917 -> 10.7.25.1:53
+07/25/2023-19:25:13.354057  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:49394 -> 10.7.25.1:53
+07/25/2023-19:26:41.818044  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:56507 -> 10.7.25.1:53
+07/25/2023-19:35:16.713477  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55012 -> 10.7.25.1:53
+07/25/2023-19:35:16.928476  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49829 -> 2.56.177.122:443
+07/25/2023-19:40:18.384091  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:59545 -> 10.7.25.1:53
+07/25/2023-19:40:18.456535  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:59545 -> 10.7.25.1:53
+07/25/2023-19:45:19.966149  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:65292 -> 10.7.25.1:53
+07/25/2023-19:50:21.862042  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:49297 -> 10.7.25.1:53
+07/25/2023-19:50:21.918660  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:49297 -> 10.7.25.1:53
+07/25/2023-19:50:22.065723  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49833 -> 2.56.177.122:443
+07/25/2023-19:55:23.747841  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49834 -> 2.56.177.122:443
+07/25/2023-19:57:02.971635  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61176 -> 10.7.25.1:53
+07/25/2023-20:00:25.085926  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:65413 -> 10.7.25.1:53
+07/25/2023-20:05:26.872542  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55392 -> 10.7.25.1:53
+07/25/2023-20:05:37.182405  [**] [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:56675 -> 10.7.25.1:53
+07/25/2023-20:13:54.156993  [**] [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:63131 -> 10.7.25.1:53
+07/25/2023-20:16:09.774472  [**] [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:55655 -> 10.7.25.1:53
+07/25/2023-20:16:20.098461  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:63828 -> 10.7.25.1:53
+07/25/2023-20:21:46.005267  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62423 -> 10.7.25.1:53
+07/25/2023-18:55:02.433290  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49816 -> 2.56.177.122:443
+07/25/2023-19:00:04.122415  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49818 -> 2.56.177.122:443
+07/25/2023-19:06:27.733850  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:59329 -> 10.7.25.1:53
+07/25/2023-19:10:07.724118  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49822 -> 2.56.177.122:443
+07/25/2023-19:15:09.247060  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:60056 -> 10.7.25.1:53
+07/25/2023-19:15:09.302495  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:60056 -> 10.7.25.1:53
+07/25/2023-19:15:09.462558  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49823 -> 2.56.177.122:443
+07/25/2023-19:20:11.010502  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:52989 -> 10.7.25.1:53
+07/25/2023-19:20:11.215155  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49826 -> 2.56.177.122:443
+07/25/2023-19:25:13.554797  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49827 -> 2.56.177.122:443
+07/25/2023-19:30:14.964896  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:56297 -> 10.7.25.1:53
+07/25/2023-19:30:15.176642  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49828 -> 2.56.177.122:443
+07/25/2023-19:36:48.849851  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:61772 -> 10.7.25.1:53
+07/25/2023-19:40:18.616628  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49830 -> 2.56.177.122:443
+07/25/2023-19:45:20.380009  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49831 -> 2.56.177.122:443
+07/25/2023-19:46:55.932617  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:56058 -> 10.7.25.1:53
+07/25/2023-19:55:23.539119  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:57591 -> 10.7.25.1:53
+07/25/2023-20:00:25.350388  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49835 -> 2.56.177.122:443
+07/25/2023-20:10:52.779336  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:57078 -> 10.7.25.1:53
+07/25/2023-20:10:52.840567  [**] [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:57078 -> 10.7.25.1:53
+07/25/2023-20:11:03.297263  [**] [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62026 -> 10.7.25.1:53
+07/25/2023-20:11:03.372080  [**] [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:62026 -> 10.7.25.1:53
+07/25/2023-20:21:35.674949  [**] [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) [**] [Classification: (null)] [Priority: 3] {UDP} 10.7.25.101:52523 -> 10.7.25.1:53
+07/25/2023-16:34:56.457148  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49839 -> 2.56.177.122:443
+07/25/2023-16:34:56.457148  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49844 -> 2.56.177.122:443
+07/25/2023-16:34:56.457148  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49857 -> 2.56.177.122:443
+07/25/2023-16:34:56.457148  [**] [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com [**] [Classification: (null)] [Priority: 3] {TCP} 10.7.25.101:49849 -> 2.56.177.122:443

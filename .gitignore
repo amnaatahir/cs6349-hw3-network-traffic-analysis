@@ -1,0 +1,5 @@
+*.pcap
+*.pcapng
+*.zip
+emerging-all.rules
+.DS_Store

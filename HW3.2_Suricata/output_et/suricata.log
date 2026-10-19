@@ -1,0 +1,19 @@
+[10807 - Suricata-Main] 2026-10-19 20:42:31 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in USER mode
+[10807 - Suricata-Main] 2026-10-19 20:42:31 Info: cpu: CPUs/cores online: 2
+[10807 - Suricata-Main] 2026-10-19 20:42:31 Info: suricata: Setting engine mode to IDS mode by default
+[10807 - Suricata-Main] 2026-10-19 20:42:31 Info: exception-policy: master exception-policy set to: auto
+[10807 - Suricata-Main] 2026-10-19 20:42:31 Info: logopenfile: fast output device (regular) initialized: fast.log
+[10807 - Suricata-Main] 2026-10-19 20:42:31 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[10807 - Suricata-Main] 2026-10-19 20:42:31 Info: logopenfile: stats output device (regular) initialized: stats.log
+[10807 - Suricata-Main] 2026-10-19 20:42:50 Info: detect: 1 rule files processed. 51484 rules successfully loaded, 0 rules failed, 0
+[10807 - Suricata-Main] 2026-10-19 20:42:51 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[10807 - Suricata-Main] 2026-10-19 20:42:51 Info: detect: 51489 signatures processed. 0 are IP-only rules, 4542 are inspecting packet payload, 46895 inspect application layer, 0 are decoder event only
+[10807 - Suricata-Main] 2026-10-19 20:43:07 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[11388 - RX#01] 2026-10-19 20:43:07 Info: pcap: Starting file run for ../2023-07-25-IcedID-infection-traffic-1.pcap
+[11388 - RX#01] 2026-10-19 20:43:07 Info: checksum: No packets with invalid checksum, assuming checksum offloading is NOT used
+[10807 - Suricata-Main] 2026-10-19 20:43:07 Notice: threads: Threads created -> RX: 1 W: 2 FM: 1 FR: 1   Engine started.
+[11388 - RX#01] 2026-10-19 20:43:07 Info: pcap: pcap file ../2023-07-25-IcedID-infection-traffic-1.pcap end of file reached (pcap err code 0)
+[10807 - Suricata-Main] 2026-10-19 20:43:07 Notice: suricata: Signal Received.  Stopping engine.
+[10807 - Suricata-Main] 2026-10-19 20:43:07 Info: suricata: time elapsed 0.114s
+[11388 - RX#01] 2026-10-19 20:43:07 Notice: pcap: read 1 file, 8604 packets, 5161681 bytes
+[10807 - Suricata-Main] 2026-10-19 20:43:07 Info: counters: Alerts: 47
