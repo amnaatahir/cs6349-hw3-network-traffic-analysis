@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntp
+#open	2026-10-19-21-06-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	mode	stratum	poll	precision	root_delay	root_disp	ref_id	ref_time	org_time	rec_time	xmt_time	num_exts
+#types	time	string	addr	port	addr	port	count	count	count	interval	interval	interval	interval	string	time	time	time	time	count
+1690303419.596784	COldphkSBsd0I69r4	10.7.25.101	123	40.119.6.228	123	3	3	0	131072.000000	0.000000	0.000000	1.000000	\x00\x00\x00\x00	1690302779.215987	0.000000	0.000000	1690303419.183995	0
+1690303419.636458	COldphkSBsd0I69r4	10.7.25.101	123	40.119.6.228	123	3	4	3	131072.000000	0.000000	0.001419	0.024414	25.66.230.0	1690303253.553688	1690303419.183995	1690303419.647687	1690303419.647689	0
+#close	2026-10-19-21-06-45

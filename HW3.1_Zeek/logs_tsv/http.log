@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-10-19-21-06-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1690302896.507799	CMLsa14pKbT2tQy0y	10.7.25.101	49734	173.232.146.10	80	1	GET	173.232.146.10	/	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183	-	0	0	302	Moved Temporarily	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1690303089.054752	CaybytOSrnZO4gvXi	10.7.25.101	49748	128.199.3.164	80	1	GET	filtaferamoza.com	/	-	1.1	-	-	0	1036133	200	OK	-	-	(empty)	-	-	-	-	-	-	FD6lTQra5lPMwlhDf	-	application/x-gzip
+1690303417.870106	Ch7s3W3BncGgIWJxR9	10.7.25.101	49766	192.229.211.108	80	1	GET	ocsp.digicert.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh/sBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H/z9DKA=	-	1.1	Microsoft-CryptoAPI/10.0	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FIRMAWjsPGXyX6dYc	-	application/ocsp-response
+1690307355.089478	C6tDho2Mu2C3H5De6l	10.7.25.101	49800	208.111.176.128	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?b189d7b6599f8013	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1690307355.136117	C6tDho2Mu2C3H5De6l	10.7.25.101	49800	208.111.176.128	80	2	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?cda15c2744dfcc73	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1690312755.113783	CMOn6I9QfWPXI1eff	10.7.25.101	49825	208.111.176.128	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?09e5055d1b5b2fe2	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2026-10-19-21-06-45

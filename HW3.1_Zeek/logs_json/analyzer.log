@@ -1,0 +1,2 @@
+{"ts":1690303162.969936,"cause":"violation","analyzer_kind":"protocol","analyzer_name":"SSL","uid":"CssAMg4c2yRGQvO13","id.orig_h":"10.7.25.101","id.orig_p":49756,"id.resp_h":"165.232.175.216","id.resp_p":443,"failure_reason":"Invalid headers in SSL connection. Head1: 131, head2: 248, head3: 102"}
+{"ts":1690315338.615849,"cause":"violation","analyzer_kind":"protocol","analyzer_name":"SSL","uid":"CoPD7y3zHj9ifrhvta","id.orig_h":"10.7.25.101","id.orig_p":49837,"id.resp_h":"165.232.175.216","id.resp_p":443,"failure_reason":"Invalid version in TLS connection. Version: 54915"}

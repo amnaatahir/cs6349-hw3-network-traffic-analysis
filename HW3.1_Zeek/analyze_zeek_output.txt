@@ -1,0 +1,102 @@
+== log line counts: {'conn': 506, 'dns': 310, 'http': 6, 'ssl': 110, 'x509': 31, 'files': 11, 'notice': 0, 'weird': 0}
+
+== Q1 CONNECTIONS
+internal (RFC1918) IPs: 4 ['10.7.25.1', '10.7.25.101', '10.7.25.255', '192.168.68.1']
+top external dest by #connections: [('2.56.177.122', 53), ('140.99.221.138', 8), ('204.79.197.200', 4), ('52.137.108.250', 4), ('104.208.16.90', 3), ('13.107.5.88', 2), ('23.220.161.132', 2), ('72.21.81.200', 2)]
+proto: [('udp', 385), ('tcp', 121)]
+service: [('dns', 329), ('ssl', 110), ('-', 61), ('http', 5), ('ntp', 1)]
+resp_p: [('53/udp', 169), ('137/udp', 129), ('443/tcp', 116), ('138/udp', 37), ('1900/udp', 16), ('5355/udp', 16), ('5353/udp', 15), ('80/tcp', 5), ('59183/udp', 2), ('123/udp', 1)]
+
+== Q2 DNS
+unique queries: 36
+    87  magiketchinn.com                                        2.56.177.122
+    81  wpad.localdomain                                        
+    18  dns.msftncsi.com                                        131.107.255.255
+    18  desktop-k225lhk                                         
+    15  desktop-k225lhk.local                                   10.7.25.101
+    14  v10.events.data.microsoft.com                           104.208.16.89,104.208.16.90,13.89.179.9,20.189.173.2,20.189.173.3,20.4
+     7  magizanqomo.com                                         2.56.177.122
+     6  WORKGROUP                                               
+     6  DESKTOP-K225LHK                                         
+     6  localdomain.localdomain                                 
+     5  flarkonafaero.com                                       140.99.221.138
+     5  lohmotarufos.com                                        140.99.221.138
+     4  settings-win.data.microsoft.com                         20.44.239.154,40.74.108.123,52.167.249.196,52.191.219.104,atm-settings
+     4  licensing.mp.microsoft.com                              52.137.108.250,consumer-licensing-aks2aks.md.mp.microsoft.com.akadns.n
+     4  MACBOOKPRO-B348                                         
+     3  www.bing.com                                            13.107.21.200,204.79.197.200,dual-a-0001.a-msedge.net,www-bing-com.dua
+     3  self.events.data.microsoft.com                          20.50.73.9,40.79.197.35,52.168.117.170,onedscolprdeus13.eastus.cloudap
+     3  ctldl.windowsupdate.com                                 208.111.176.128,208.111.176.192,208.111.176.64,72.21.81.240,bg.apr-52d
+     2  evoke-windowsservices-tas.msedge.net                    13.107.5.88,e-0009.e-msedge.net,evoke-windowsservices-tas-msedge-net.e
+     2  officeclient.microsoft.com                              52.109.8.13,config.officeapps.live.com,prod.configsvc1.live.com.akadns
+     2  clients.config.office.net                               52.154.48.127,amripv4.clients.config.office.akadns.net,geo.clients.con
+     1  www.sophrologie-yoga.fr                                 109.234.165.110,sophrologie-yoga.fr
+     1  ow1.res.office365.com                                   23.220.161.132,23.220.161.143,e40491.g.akamaiedge.net,ow1.res.office36
+     1  fp-vs-nocache.azureedge.net                             72.21.81.200,cs9.wpc.v0cdn.net,fp-vs-nocache.ec.azureedge.net
+     1  edge.microsoft.com                                      13.107.21.239,204.79.197.239,dual-a-0036.a-msedge.net,edge-microsoft-c
+     1  pti.store.microsoft.com                                 
+     1  filtaferamoza.com                                       128.199.3.164
+     1  fe2cr.update.microsoft.com                              13.91.16.71,20.62.190.191,fe2cr.update.msft.com.trafficmanager.net
+     1  fe3cr.delivery.mp.microsoft.com                         13.85.23.206,fe3.delivery.mp.microsoft.com,glb.cws.prod.dcat.dsp.traff
+     1  login.live.com                                          40.126.28.11,40.126.28.13,40.126.28.20,40.126.28.21,40.126.28.22,40.12
+     1  maps.windows.com                                        13.107.213.57,13.107.246.57,dual.part-0029.t-0009.t-msedge.net,maps-wi
+     1  ocsp.digicert.com                                       192.229.211.108,fp2e7a.wpc.2be4.phicdn.net,fp2e7a.wpc.phicdn.net,ocsp.
+     1  time.windows.com                                        40.119.6.228,twc.trafficmanager.net
+     1  storecatalogrevocation.storequality.microsoft.com       23.64.110.23,e10198.b.akamaiedge.net,storecatalogrevocation.storequali
+     1  ecs.office.com                                          52.113.194.132,ecs-office.s-0005.s-msedge.net,ecs.office.trafficmanage
+     1  client.wns.windows.com                                  20.7.1.246,wns.notify.trafficmanager.net
+
+== Q3 HTTP
+  16:34:56 10.7.25.101 -> 173.232.146.10 GET 173.232.146.10 / 302 Mozilla/5.0 (Windows NT 10.0;  resp_mime=- resp_len=0
+  16:38:09 10.7.25.101 -> 128.199.3.164 GET filtaferamoza.com / 200 - resp_mime=application/x-gzip resp_len=1036133
+  16:43:37 10.7.25.101 -> 192.229.211.108 GET ocsp.digicert.com /MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh/sBYgFV7gQ 200 Microsoft-CryptoAPI/10.0 resp_mime=application/ocsp-response resp_len=471
+  17:49:15 10.7.25.101 -> 208.111.176.128 GET ctldl.windowsupdate.com /msdownload/update/v3/static/trustedr/en/disallowedcertstl.c 304 Microsoft-CryptoAPI/10.0 resp_mime=- resp_len=0
+  17:49:15 10.7.25.101 -> 208.111.176.128 GET ctldl.windowsupdate.com /msdownload/update/v3/static/trustedr/en/authrootstl.cab?cda 304 Microsoft-CryptoAPI/10.0 resp_mime=- resp_len=0
+  19:19:15 10.7.25.101 -> 208.111.176.128 GET ctldl.windowsupdate.com /msdownload/update/v3/static/trustedr/en/disallowedcertstl.c 304 Microsoft-CryptoAPI/10.0 resp_mime=- resp_len=0
+files.log: [('application/ocsp-response', '-', 'SSL', '-'), ('application/x-gzip', '1036133', 'HTTP', '-'), ('application/ocsp-response', '-', 'SSL', '-'), ('application/ocsp-response', '-', 'SSL', '-'), ('application/ocsp-response', '-', 'SSL', '-'), ('application/ocsp-response', '-', 'SSL', '-'), ('application/ocsp-response', '471', 'HTTP', '-'), ('application/ocsp-response', '-', 'SSL', '-'), ('application/ocsp-response', '-', 'SSL', '-'), ('application/ocsp-response', '-', 'SSL', '-'), ('application/ocsp-response', '-', 'SSL', '-')]
+
+== Q4 SSL/TLS
+ssl sessions: 110 established: Counter({'T': 93, 'F': 17})
+versions: [('TLSv12', 92), ('-', 17), ('TLSv13', 1)]
+SNI: [('magiketchinn.com', 45), ('v10.events.data.microsoft.com', 13), ('magizanqomo.com', 8), ('settings-win.data.microsoft.com', 5), ('www.bing.com', 4), ('self.events.data.microsoft.com', 4), ('licensing.mp.microsoft.com', 4), ('flarkonafaero.com', 4), ('lohmotarufos.com', 4), ('evoke-windowsservices-tas.msedge.net', 2), ('login.live.com', 2), ('www.sophrologie-yoga.fr', 1)]
+validation_status: [('', 110)]
+  SELF-SIGNED cert: CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US | valid 00:00:00
+  SELF-SIGNED cert: O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost | valid 13:55:27
+  SELF-SIGNED cert: CN=DigiCert Global Root G2,OU=www.digicert.com,O=DigiCert Inc,C=US | valid 12:00:00
+x509 subjects: [(('CN=*.events.data.microsoft.com,O=Microsoft Corporation,L=Redmond,ST=WA,C=US', 'CN=Microsoft Azure TLS Issuing CA 05,O=Microsoft Corporation,C=US'), 2), (('CN=*.res.outlook.com,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US', 'CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US'), 1), (('CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US', 'CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US'), 1), (('CN=*.vo.msecnd.net,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US', 'CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US'), 1), (('CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US', 'CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US'), 1), (('CN=edge.microsoft.com,O=Microsoft Corporation,L=Redmond,ST=WA,C=US', 'CN=Microsoft Azure TLS Issuing CA 05,O=Microsoft Corporation,C=US'), 1)]
+
+== Q5 BEHAVIOR
+  10.7.25.1:53 n=169 mean=81.0s median=30.7s stdev=99.9
+  10.7.25.1:137 n=124 mean=110.3s median=120.0s stdev=23.4
+  2.56.177.122:443 n=53 mean=256.8s median=301.7s stdev=106.8
+  10.7.25.255:138 n=37 mean=365.5s median=300.8s stdev=209.4
+  239.255.255.250:1900 n=16 mean=853.2s median=900.0s stdev=161.4
+  224.0.0.252:5355 n=16 mean=836.5s median=900.0s stdev=397.2
+  224.0.0.251:5353 n=15 mean=896.3s median=900.0s stdev=12.5
+  140.99.221.138:443 n=8 mean=138.4s median=10.6s stdev=147.8
+  10.7.25.255:137 n=5 mean=3057.4s median=2111.3s stdev=3315.9
+  204.79.197.200:443 n=4 mean=2953.7s median=120.6s stdev=4069.9
+longest connections:
+  10.7.25.101->165.232.175.216:443 - dur=12166s orig=3666 resp=3434 state=RSTR
+  10.7.25.101->165.232.175.216:443 - dur=1147s orig=572 resp=340 state=S1
+  10.7.25.101->72.21.81.200:443 ssl dur=181s orig=870 resp=8361 state=S3
+  10.7.25.101->10.7.25.255:138 - dur=138s orig=2943 resp=0 state=S0
+  10.7.25.101->13.107.6.254:443 ssl dur=127s orig=1083 resp=1050 state=RSTR
+  10.7.25.101->204.79.197.200:443 ssl dur=126s orig=4663 resp=548 state=RSTR
+largest uploads (orig_bytes):
+  10.7.25.101->20.62.190.191:443 ssl orig=36141 resp=65101
+  10.7.25.101->204.79.197.239:443 ssl orig=15419 resp=9357
+  10.7.25.101->13.85.23.206:443 ssl orig=14610 resp=4171
+  10.7.25.101->52.191.219.104:443 ssl orig=13468 resp=544458
+  10.7.25.101->20.42.73.24:443 ssl orig=9324 resp=6850
+  10.7.25.101->40.79.197.35:443 ssl orig=9281 resp=6852
+largest downloads (resp_bytes):
+  10.7.25.101->2.56.177.122:443 ssl orig=1059 resp=1907544
+  10.7.25.101->128.199.3.164:80 http orig=291 resp=1036285
+  10.7.25.101->52.191.219.104:443 ssl orig=13468 resp=544458
+  10.7.25.101->109.234.165.110:443 ssl orig=1759 resp=201257
+  10.7.25.101->2.56.177.122:443 ssl orig=416 resp=176629
+  10.7.25.101->20.62.190.191:443 ssl orig=36141 resp=65101
+total to Internet: up=279347 B  down=4363477 B
+notice: []
+weird: []
