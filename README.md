@@ -32,3 +32,8 @@ lohmotarufos.com / flarkonafaero.com (140.99.221.138) Â· C2 cert serial D4B36C Â
 payload SHA-256 729a9743319f548134a1535291bea0bfdac6cd9a8c4c9ba19ab1b8524d5ebea7
 
 > Safety: only the pcap was analyzed. The exported payload was hashed in an isolated folder and deleted; no malware is stored here.
+
+## Cross-version check
+All results were re-run on macOS with Homebrew **Zeek 9.0.0, Suricata 8.0.7, tshark 4.6.9** and match
+(see [Mac_Verification/mac_verification_summary.txt](Mac_Verification/mac_verification_summary.txt));
+only Zeek 9's dns.log is larger (367 vs 310 lines) because it logs more NetBIOS/mDNS records.

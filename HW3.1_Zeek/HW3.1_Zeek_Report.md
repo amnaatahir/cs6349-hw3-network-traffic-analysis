@@ -24,6 +24,8 @@ analyzer.log conn.log dns.log files.log http.log ntp.log ocsp.log packet_filter.
 
 `zeek-cut` was used to read the TSV logs and `jq` for the JSON logs (examples in each answer). All times are UTC.
 
+> **Version check:** I re-ran everything on a Mac with **Zeek 9.0.0 / Suricata 8.0.7** (Homebrew). Every answer was identical: 506 conn records, 53 connections to 2.56.177.122, 87 magiketchinn.com look-ups, 45 C2 TLS sessions, the 1,036,133-byte download, the same self-signed cert, and the same 47 ET / 140 custom alerts. One count differs. Zeek 9's dns.log has **367** records and 37 distinct names (vs. 310 / 36 here) because it logs more NetBIOS (137/udp) and mDNS lines. Real DNS on port 53 is the same in both: 261 queries.
+
 ![Zeek run and conn/http summaries](screenshots/zeek_term1.png)
 <p class="cap">Figure 1 – Zeek run, the logs it produced, and the conn.log / http.log summaries used for Q1 and Q3.</p>
 

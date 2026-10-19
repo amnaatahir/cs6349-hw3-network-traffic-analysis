@@ -1,0 +1,40 @@
+HW3 verification on Mac - Mon Oct 19 16:37:47 CDT 2026
+zeek version 9.0.0
+This is Suricata version 8.0.7 RELEASE
+TShark (Wireshark) 4.6.9 (Git commit 2d548b197c75).
+
+== Zeek
+conn records: 506   dns: 367   http: 6   ssl: 110
+proto:
+ 121 tcp
+ 385 udp
+top external dests:
+  53 2.56.177.122
+   8 140.99.221.138
+   4 52.137.108.250
+magiketchinn DNS queries: 87
+magiketchinn TLS sessions: 45
+IcedID download:
+filtaferamoza.com	/	200	application/x-gzip	1036133
+self-signed C2 cert:
+O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost	1690293327.000000
+
+== Suricata (ET Open rules)
+[259 - Suricata-Main] 2026-10-19 16:37:50 Info: detect: 1 rule files processed. 51484 rules successfully loaded, 0 rules failed, 0 rules skipped
+ET alerts (fast.log lines):       47
+  45 ET INFO OpenSSL Demo CA - Internet Widgits Pty (O)
+   1 ET MALWARE Win32/IcedID Requesting Encoded Binary M4
+   1 ET MALWARE Win32/IcedID Request Cookie
+
+== Suricata (custom local.rules)
+custom alerts:      140
+  87 [1:1000001:1] Suspicious DNS Query: magiketchinn.com (IcedID C2) 
+   7 [1:1000002:1] Suspicious DNS Query: magizanqomo.com (IcedID C2) 
+   1 [1:1000003:1] Suspicious DNS Query: filtaferamoza.com (IcedID loader) 
+  45 [1:1000004:1] IcedID C2 TLS SNI: magiketchinn.com 
+
+== tshark
+packets:     8604
+unique DNS query names:       33
+
+DONE
